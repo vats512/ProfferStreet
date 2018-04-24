@@ -1,0 +1,149 @@
+#signin #head .glyphicon
+{
+    vertical-align: middle;
+}
+#signin .input-group-addon
+{
+	color: white;
+	background-color: #0da3e2;
+	font-size: 125%;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-style: none;
+	width: 14%;
+}
+#signin input
+{
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+#signin #submit
+{
+	font-size: 130%;
+	border-radius: 0px;
+	box-shadow: 2px 2px 2px gray;
+	outline: none;
+	border: none;
+}
+#signup #head .glyphicon
+{
+    vertical-align: middle;
+}
+#signup .input-group-addon
+{
+	color: white;
+	background-color: #0da3e2;
+	font-size: 125%;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-style: none;
+	width: 14%;
+}
+#signup input
+{
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+#signup #submit
+{
+	font-size: 130%;
+	border-radius: 0px;
+	box-shadow: 2px 2px 2px gray;
+	outline: none;
+	border: none;
+}
+.tip_danger + .tooltip > .tooltip-inner{background-color: #d9534f;}
+.tip_danger + .tooltip > .tooltip-arrow { border-bottom-color:#d9534f; }
+
+.tip_warning + .tooltip > .tooltip-inner{background-color: #f0ad4e;}
+.tip_warning + .tooltip > .tooltip-arrow { border-bottom-color:#f0ad4e; }
+
+.tip_info + .tooltip > .tooltip-inner{background-color: #5bc0de;}
+.tip_info + .tooltip > .tooltip-arrow { border-bottom-color:#5bc0de; }
+
+.tip_primary + .tooltip > .tooltip-inner{background-color: #337ab7;}
+.tip_primary + .tooltip > .tooltip-arrow { border-bottom-color:#337ab7; }
+
+.tip_success + .tooltip > .tooltip-inner{background-color: #5cb85c;}
+.tip_success + .tooltip > .tooltip-arrow { border-bottom-color:#5cb85c; }
+
+.tip_danger_lg + .tooltip { width: 100%;}
+.tip_danger_lg + .tooltip > .tooltip-inner{background-color: red; font-size: 130%;}
+.tip_danger_lg + .tooltip > .tooltip-arrow { border-right-color:red; }
+
+.tip_info_lg + .tooltip { width: 100%;}
+.tip_info_lg + .tooltip > .tooltip-inner{background-color: #0da3e2; font-size: 150%;}
+.tip_info_lg + .tooltip > .tooltip-arrow { border-right-color:#0da3e2; }
+.list_row
+{
+	margin-top: 7px;
+	height: 50px;
+	cursor: pointer;
+	height: 80px;
+}
+.list_row:hover
+{
+	box-shadow: 3px 3px 3px gray;
+}
+.product_img
+{
+	height: 200px;
+	width: 100%;
+	margin-left: 3px;
+	cursor: pointer;
+}
+.product
+{
+	box-shadow: 2px 2px 2px gray;
+	margin: 20px;
+	width: 30%;
+	padding-bottom: 10px;
+	background: #eeefff;
+}
+.product:hover
+{
+	box-shadow: 5px 5px 5px gray;	
+}
+.lr0pad
+{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.btn-blue, .btn-blue:focus
+{
+	background: #0da3e2;
+	color: white;
+}
+.btn-blue:hover
+{
+	background: white;
+	color: #0da3e2;
+	border: 1px solid #0da3e2;
+}
+#header #search_list
+{
+	position: absolute;
+	background: white;
+	width: 100%;
+	list-style-type: none;
+	padding: 5px 0px 0px 2px;
+	z-index: 200;
+	overflow: none;
+}
+#header #search_list li
+{
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+#header #search_list li:hover, #header #search_list li:focus
+{
+	background: #cfe3e8;
+}
+#header #search_list li.selected 
+{
+	background: #00ff00;
+}
+#header #search_list li a
+{
+	text-decoration: none;
+}
